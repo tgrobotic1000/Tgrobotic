@@ -24,7 +24,7 @@ async def approve(_, m: Message):
         await app.approve_chat_join_request(op.id, kk.id)
         await app.send_message(
             kk.id,
-            "**Hello {}!\nWelcome To {}\n\n__Powered By : @VJ_Botz __**".format(m.from_user.mention, m.chat.title)
+            "**Hello {}!\nWelcome To {}\n\n__Powered By : tgrobotic**".format(m.from_user.mention, m.chat.title)
         )
         add_user(kk.id)
     except errors.PeerIdInvalid:
