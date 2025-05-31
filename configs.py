@@ -6,5 +6,5 @@ class Config:
     BOT_TOKEN = os.getenv("7729291712:AAEyuIgE7VLStp1tpZrKiEVrTFFjUujZJks", "")
     CHID = os.getenv("-1002662027422", "")
     SUDO = int(os.getenv("7439650239", "0"))
-    MONGO_URI = os.getenv("mongodb+srv://tgrobotic:nRUEU81Zc3r5gMxK@cluster0.omkktyb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "")
+    MONGO_URI = "mongodb+srv://tgrobotic:nRUEU81Zc3r5gMxK@cluster0.omkktyb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 cfg = Config()
