@@ -1,12 +1,6 @@
-pyrofork
-TgCrypto
-pymongo[srv]
-aiohttp
-Flask==1.1.2
+Flask==2.0.2
 gunicorn==20.1.0
-Jinja2==3.0.3
-werkzeug==2.0.2
-itsdangerous==2.0.1
-git add requirements.txt
-git commit -m "Added gunicorn to requirements"
-git push origin main
+requests
+pyrogram
+tgcrypto
+pymongo
