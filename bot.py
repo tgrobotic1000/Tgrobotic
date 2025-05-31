@@ -15,7 +15,11 @@ app = Client(
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main process ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @app.on_chat_join_request(filters.group | filters.channel)
-async def approve(_, m : Message):
+from aiogram.types import Message
+
+async def approve(_, m: Message):
+    # APPROVED
+
     op = m.chat
     kk = m.from_user
     try:
